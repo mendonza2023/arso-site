@@ -1,0 +1,67 @@
+.video-galeria {
+  max-width: 50%;
+  width: 200px;  /* Você pode ajustar esse valor */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+  .instagram-float {
+    position: fixed;
+    bottom: 90px; /* Acima do botão do WhatsApp */
+    right: 20px;
+    z-index: 999;
+    transition: transform 0.3s;
+  }
+
+  .instagram-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    transition: transform 0.3s;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+.logo-arso {
+  max-width: 100px;
+  height: auto;
+}
+
+
+.gallery-img {
+  cursor: pointer;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border: 4px solid white;
+  border-radius: 10px;
+}
