@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galeria - ARSO</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Estilo personalizado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">ARSO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="../about.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./Galeria/gallery.html">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="./blog.html">Dicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Título e Introdução -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-5">Galeria de Trabalhos</h1>
+      <p class="lead">Confira alguns dos projetos de soldagem realizados com excelência.</p>
+    </div>
+  </header>
+
+  <!-- Galeria -->
+<section class="container py-5">
+  <h2 class="text-center mb-4">Galeria de Trabalhos</h2>
+  <div class="row g-3">
+    <!-- Imagens de s1.jpg até s16.jpg -->
+    <!-- Repita dinamicamente os blocos abaixo -->
+    <!-- Substitua o caminho se estiver diferente -->
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s1.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s2.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s3.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s4.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s5.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s6.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s7.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s8.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s9.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s10.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s11.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s12.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s13.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s14.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s15.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+      <img src="../imagem/soldas/s16.jpg" class="img-thumbnail gallery-img" onclick="openLightbox(this.src)">
+    </div>
+  </div>
+</section>
+
+  <!-- VÍDEO -->
+  <video class="gallery-item" controls onclick="openLightboxVideo(this)">
+    <source src="../videos/Vídeo do WhatsApp de 2025-06-10 à(s) 18.18.04_664c9de8.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
+   <!-- VÍDEO -->
+  <video class="gallery-item" controls onclick="openLightboxVideo(this)">
+    <source src="../videos/Vídeo do WhatsApp de 2025-06-10 à(s) 18.18.04_a7be7386.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
+ </div>
+
+  </main>
+
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-3">
+  <div class="container">
+    <small>© 2025 ARSO - Arte de Soldagem. Desenvolvido por Filipe Mendonça</small>
+  </div>
+</footer>
+
+  <!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="">
+</div>
+
+
+  <!-- Scripts do Bootstrap ou JavaScript -->
+  <script src="..."></script>
+</body>
+</html>
+
+
+</body>
